@@ -1,6 +1,6 @@
 {
   "name": "node-mpg123",
-  "version": "0.0.1-0001",
+  "version": "1.0.2-0023",
   "description": "JS based mpg123 wrapper.",
   "main": "index.js",
   "scripts": {
