@@ -1,13 +1,21 @@
 node-mpg123
 ===========
 
-Entirely JS based mpg123 (http://www.mpg123.de/) wrapper for Node.js.
+Written entirely in JS mpg123 (http://www.mpg123.de/) wrapper for Node.js.
+
+Installation
+-----------
+### Debian/Ubuntu ###
+````
+sudo apt-get install mpg123
+npm install node-mpg123
+````
 
 Example Usage
 ------------
 
 ````javascript
-var Sound = require('mpg123');
+var Sound = require('node-mpg123');
 
 // fire and forget:
 new Sound('/path/to/the/file/filename.mp3').play();
