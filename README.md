@@ -29,10 +29,10 @@ setTimeout(function () {
 music.on('complete' function () {
 	console.log('Done with playback!');
 });
+````
+
+It's simple as that.
 
 Documentation
 ------------
 In progress.
-````
-
-It's simple as that.
