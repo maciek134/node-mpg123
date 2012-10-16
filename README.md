@@ -24,6 +24,15 @@ setTimeout(function () {
 setTimeout(function () {
 	music.resume(); // and resume it two seconds after pausing
 }, 7000);
+
+// you can also listen for various callbacks:
+music.on('complete' function () {
+	console.log('Done with playback!');
+});
+
+Documentation
+------------
+In progress.
 ````
 
 It's simple as that.
