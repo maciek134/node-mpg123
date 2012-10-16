@@ -22,9 +22,10 @@ util.inherits(module.exports, events.EventEmitter);
 module.exports.prototype.play = function () {
 	this.stopped = false;
 	this.process = spawn('mpg123', [ this.filename ]);
+	var self = this;
 	this.process.on('exit', function (code, sig) {
 		if (code !== null && sig === null) {
-			this.emit('completed');
+			self.emit('complete');
 		}
 	});
 };
